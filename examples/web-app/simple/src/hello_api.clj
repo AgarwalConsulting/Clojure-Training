@@ -1,6 +1,6 @@
 (ns hello-api
-  (:use [ring.adapter.jetty :only [run-jetty]]))
-  ; (:require [ring.adapter.jetty :refer [run-jetty]]))
+  ; (:use [ring.adapter.jetty :only [run-jetty]]))
+  (:require [ring.adapter.jetty :refer [run-jetty]]))
 ; https://stackoverflow.com/questions/871997/difference-between-use-and-require
 
 (defn hello-handler [request]
